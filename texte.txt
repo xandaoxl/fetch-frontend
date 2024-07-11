@@ -1,0 +1,71 @@
+Pessoa alguma duvida ou alguma dor da aula de ontem??
+
+
+duvida sobre localstorage
+exemplo de array/exercicio
+eu nao consigo fazer tudo isso hoje. eh mto conteudo.
+
+
+hoje vai ser fetch. que significa pegar algo do backend/api.
+Eu nao sei se o cauan consegue chegar post.
+
+Fica mto longo pra colocar localstorage, array method e fetch na mesma aula.
+
+eu consigo fazer 2. fetch e outro
+
+fetch e array method? 1
+fetch e localstorage? 1
+
+
+local storage
+local armazenar
+
+
+o browser armazena informacoes.
+
+informacoes como cache, cookies, como localstorage.
+localstora é basicamente um OBJECTO com CHAVE-VALOR.
+
+só que ele está acessivel dentro do browser.
+
+
+Qual a limitacao do localstorage?
+Local storage tem limitacao de 10mb, se eu n me engano.
+Significa que vc n pode guardar coisas grandes no local storage. Como Imagens.
+
+
+Geralmente eh usado pra guardar dados do cliente. Como Login, Token, Preferencias, Cor do site.
+localStorage é um objeto.
+localStorage é um objeto com 2 métodos importantes.
+
+GET e o SET.
+Veremos em vários lugares o get e set.
+
+GET = PEGAR
+SET = COLOCAR
+
+localStorage.getItem(PARAMETRO) Esse parâmetro é a CHAVE do que vc quer resgatar.
+localStorage.setItem(PARAMETRO1, PARAMETRO2) Parametro 1 é a CHAVE onde eu quero COLOCAR, parâmetro 2 é o VALOR que eu desejo guardar.
+
+Isso é tudo o necessário para Localstorage.
+Exemplo....
+
+Todas as paginas tem localStorage.
+Localstorage é guardado por PAGINA que vc entra. https://developer.mozilla.org/
+Eu vou acessar o local storage daqui: https://developer.mozilla.org/
+Lembrando que esse dado fica na maquina.
+Chave A, valor 10.
+
+Vou mostrar como acessa via javascript
+
+Vou já mostrar exemplo.
+
+
+
+localstorage
+1)armazena dados de um site
+2)sempre guarda e retorn chave e valor
+3) sempre armazena texto
+4) como utilizar:
+localStorage.getItem(PARAMETRO) Esse parâmetro é a CHAVE do que vc quer resgatar.
+localStorage.setItem(PARAMETRO1, PARAMETRO2) Parametro 1 é a CHAVE onde eu quero COLOCAR, parâmetro 2 é o VALOR que eu desejo guardar.
